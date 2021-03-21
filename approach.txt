@@ -1,0 +1,7 @@
+my user history approach was pure dlb trie just like the main dictionary dlb. 
+I chose dlb to save time writing extra methods to store and retrieve. where with one DLBTrie class, I load dictionary and user_history simultaneously and use all member methods inside DLBTrie. 
+I can .put to load words from user_history.txt into histo trie.
+I can .keysWithPrefix to retrieve all prefixes associated and place them in prediction Arraylist.
+I used final ArrayList as global member of my DLBTrie class so I can add prediction words from both [main trie and user_history trie] to display.
+for runtime purposes, ArrayLists give me log(n) search and it's more convenient to use its ready to use methods such as .add .get and .size
+ 
